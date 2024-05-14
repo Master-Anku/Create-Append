@@ -24,10 +24,10 @@ nameEl.textContent = "My name is Ankura";
 yangon.textContent = "I live in Yangon";
 // myanmar.textContent = "Myanmr";
 text.textContent = "My favorite foods:"
-li1.textContent = "Rice";
-li2.textContent = "Coffee";
-li3.textContent = "watermelon ";
-li4.textContent = " Durian fruit";
+li1.textContent = "Rice $";
+li2.textContent = "Coffee $";
+li3.textContent = "watermelon $ ";
+li4.textContent = " Durian fruit $";
 
 
 //append
