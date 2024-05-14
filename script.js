@@ -1,7 +1,7 @@
 var body = document.body;
 var h1 = document.createElement("h1");
 var info = document.createElement("div");
-var img = document.createElement("img");
+var imgEl = document.createElement("img");
 var nameEl = document.createElement("section");
 var yangon = document.createElement("section");
 var myanmar = document.createElement("section");
@@ -35,7 +35,7 @@ body.appendChild(h1);
 body.appendChild(nameEl);
 body.appendChild(yangon);
 body.appendChild(myanmar);
-myanmar.appendChild(img)
+myanmar.appendChild(imgEl)
 // body.appendChild(img);
 body.appendChild(text);
 
@@ -51,8 +51,8 @@ ollist.appendChild(li4);
 //set attribute
 h1.setAttribute("style", "margin: 0 auto; text-align:center; color:blue;");
 nameEl.setAttribute("style", "text-align:center; font-size: 25px;")
-img.setAttribute("src", "image/anku.png");
-img.setAttribute("width", '300px; ');
+imgEl.setAttribute("src", "image/anku.png");
+imgEl.setAttribute("width", '300px; ');
 yangon.setAttribute("style", "text-align:center; font-size: 25px;")
 myanmar.setAttribute("style", "text-align:center; font-size: 25px;")
 text.setAttribute("style", "font-size:30px; color:black;")
