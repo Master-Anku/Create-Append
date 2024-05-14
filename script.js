@@ -20,14 +20,14 @@ var li4 = document.createElement("li");
 
 //text content
 h1.textContent = "Hello World!";
-nameEl.textContent = "Small Dog";
-yangon.textContent = "He is RoMan";
+nameEl.textContent = "My name is Ankura";
+yangon.textContent = "I live in Yangon";
 // myanmar.textContent = "Myanmr";
-text.textContent = "My hobbies :"
-li1.textContent = "စာဖတ်ခြင်း";
-li2.textContent = "ဂီတကို နားဆင်ခြင်း";
-li3.textContent = "အားကစားလုပ်ခြင်း ";
-li4.textContent = "နည်းပညာကို လေ့လာခြင်း ";
+text.textContent = "My favorite foods:"
+li1.textContent = "Rice";
+li2.textContent = "Coffee";
+li3.textContent = "watermelon ";
+li4.textContent = " Durian fruit";
 
 
 //append
@@ -51,7 +51,7 @@ ollist.appendChild(li4);
 //set attribute
 h1.setAttribute("style", "margin: 0 auto; text-align:center; color:blue;");
 nameEl.setAttribute("style", "text-align:center; font-size: 25px;")
-img.setAttribute("src", "image/small dog.jpg");
+img.setAttribute("src", "image/anku.png");
 img.setAttribute("width", '300px; ');
 yangon.setAttribute("style", "text-align:center; font-size: 25px;")
 myanmar.setAttribute("style", "text-align:center; font-size: 25px;")
